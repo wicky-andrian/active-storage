@@ -1,0 +1,17 @@
+<br>
+<div class="ui text container">
+<%= form_with model: @gallery, local: true, class: 'ui form' do  |g| %>
+<div class="field">
+	<label>Title</label>
+	<%= g.text_field :title %>
+</div>
+
+<div class="field">	
+<label>Image</label>
+	<%= g.file_field :image %>
+</div>
+<div class="field">
+	<%= g.submit 'Create', class: 'ui primary button' %>
+</div>
+<% end %>
+</div>

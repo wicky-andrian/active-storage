@@ -1,0 +1,28 @@
+<br>
+
+<div class="ui text container">
+<div class="ui items">
+<% @ids.each do |x| %>
+  <div class="item">
+    <div class="image">
+      <%= image_tag x.image %>
+    </div>
+    <div class="content">
+      <%= link_to x.title, gallery_url(x), class: 'header' %>
+      <div class="meta">
+        <span>Description</span>
+      </div>
+      <div class="description">
+        <p></p>
+      </div>
+      <div class="extra">
+        Additional Details
+      </div>
+    </div>
+  </div>
+  <% end %>
+
+
+</div>
+  <h4><%= link_to 'Create gallery', new_gallery_url, class: 'ui primary button' %></h4>
+</div>
