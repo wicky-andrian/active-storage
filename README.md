@@ -107,6 +107,6 @@ end
 ```
 #### reference
 ````
-01.[link here](http://edgeguides.rubyonrails.org/active_storage_overview.html)
-02.[link here](https://www.engineyard.com/blog/active-storage)
+01.(http://edgeguides.rubyonrails.org/active_storage_overview.html)
+02.(https://www.engineyard.com/blog/active-storage)
 ````
