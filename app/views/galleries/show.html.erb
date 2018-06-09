@@ -1,11 +1,6 @@
-<br>
-<div class="ui text container">
-<h4 class="ui header"><%= @gallery.title %></h4>
-<p>
-	<%= image_tag @gallery.image, class: 'ui medium rounded image' %>
-</p>
-<p>
-<%= link_to 'Create another gallery', :back, class: 'ui primary button' %>
-<%= link_to 'Go to home page', root_url, class: 'ui teal button' %>
-</p>
+<div class="ui segment">
+	<h4 class="header"><%= @gallery.title %></h4>
+	<p>
+		<%= image_tag @gallery.image, class: 'ui medium rounded image' %>
+	</p>
 </div>

@@ -11,7 +11,10 @@
 	<%= g.file_field :image %>
 </div>
 <div class="field">
+	<p>
 	<%= g.submit 'Create', class: 'ui primary button' %>
+	<%= link_to 'Cancel', :back, class: 'ui red button' %>
+	</p>
 </div>
 <% end %>
 </div>
