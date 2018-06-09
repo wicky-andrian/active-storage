@@ -105,3 +105,6 @@ end
   <h4><%= link_to 'Create gallery', new_gallery_url, class: 'ui primary button' %></h4>
 </div>
 ```
+#### reference
+[01.link here]: http://edgeguides.rubyonrails.org/active_storage_overview.html
+[02.link here]:https://www.engineyard.com/blog/active-storage
