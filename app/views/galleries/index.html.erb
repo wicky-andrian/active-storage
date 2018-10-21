@@ -1,8 +1,8 @@
 <div class="ui items">
-<% @ids.each do |x| %>
+<% @galleries.each do |x| %>
   <div class="item">
     <div class="image">
-      <%= image_tag x.image %>
+    <%= image_tag x.sampul %>
     </div>
     <div class="content">
       <%= link_to x.title, gallery_url(x), class: 'header' %>

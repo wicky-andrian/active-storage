@@ -106,6 +106,7 @@ end
 </div>
 ```
 #### reference
-
-01.http://edgeguides.rubyonrails.org/active_storage_overview.html
-02.https://www.engineyard.com/blog/active-storage
+```
+<p>01.http://edgeguides.rubyonrails.org/active_storage_overview.html</p>
+<p>02.https://www.engineyard.com/blog/active-storage</p>
+```

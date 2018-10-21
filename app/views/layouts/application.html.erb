@@ -10,11 +10,15 @@
   </head>
 
   <body>
+  <br>
   <div class="ui text container">
-  <h4><%= link_to 'Go to home page', root_url, class: 'ui teal button' %></h4>
-  <h4><%= link_to 'Create gallery', new_gallery_url, class: 'ui primary button' %></h4>
+  <p>
+  <%= link_to 'Index', root_url, class: 'ui teal button' %>
+  <%= link_to 'Create gallery', new_gallery_url, class: 'ui primary button' %>
+  </p>
   <div class="ui divider"></div>
     <%= yield %>
   </div>
+  <br>
   </body>
 </html>

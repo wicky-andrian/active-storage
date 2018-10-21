@@ -1,6 +1,15 @@
 <div class="ui segment">
 	<h4 class="header"><%= @gallery.title %></h4>
 	<p>
-		<%= image_tag @gallery.image, class: 'ui medium rounded image' %>
+	<% @gallery.images.each do |image| %>
+  		<%= image_tag image %>
+  		<%= link_to 'remove', delete_image_gallery_url(image) %> <br />
+	<% end %>
+	</p>
+	<p>
+		<%= link_to 'Edit', edit_gallery_url(@gallery), class: 'ui primary button' %>
+		<%= link_to 'Remove', gallery_url(@gallery),
+                    method: :delete,
+                    data: { confirm: 'Are you sure?' }, class: 'ui red button' %>
 	</p>
 </div>
